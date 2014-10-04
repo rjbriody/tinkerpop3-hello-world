@@ -9,7 +9,7 @@ public class LetsGremlin{
         // GremlinLoader.load()
         SugarLoader.load()
         def g = TinkerFactory.createTheCrew()
-        // Let the gremlin begin!
+        // Let the gremlining begin!
         g.V().each{println it.name}
     }
 }
