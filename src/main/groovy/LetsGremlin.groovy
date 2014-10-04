@@ -7,7 +7,7 @@ public class LetsGremlin{
     public static void main(String[] args) {
         GremlinLoader.load()
         SugarLoader.load()
-        def g = TinkerFactory.createModern()
+        def g = TinkerFactory.createTheCrew()
         // Let the gremlin begin!
         g.V().each{println it.name}
     }
